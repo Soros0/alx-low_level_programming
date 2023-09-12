@@ -6,7 +6,7 @@
  * return : always to 0.
  */
 
-int main ()
+int main (void)
 {
 
 	printf ("_putchar");
