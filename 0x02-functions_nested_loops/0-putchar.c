@@ -1,17 +1,16 @@
 #include <stdio.h>
+
 /**
+ * main - Entry point of the program
  *
- * main - check the code
+ * Description: This is a simple program that prints "_putchar" followed by
+ * a newline character to the standard output.
  *
- * Return: Always 0.
+ * Return: Always 0 (indicating success)
  */
-
-int main ()
+int main(void)
 {
-	
-	printf ("_putchar");
-	return 0;
+    printf("_putchar\n");
 
-
-
+    return (0);
 }
