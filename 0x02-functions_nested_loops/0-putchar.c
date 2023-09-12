@@ -6,9 +6,12 @@
  * Return: Always 0.
  */
 
-int main (void)
+int main ()
 {
-	char a = _putchar;
-	printf ("c\n",a);
+	
+	printf ("_putchar");
 	return 0;
+
+
+
 }
