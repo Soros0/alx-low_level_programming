@@ -1,19 +1,16 @@
 #include "main.h"
+
 /**
-* main - causes an infinite loop
-* description : check if char is upper case
-* Return: 0
-*/
+ * _isupper - uppercase letters
+ * @c: char to check
+ *
+ * Return: 0 or 1
+ */
 
-int main(void)
+int _isupper(int c)
 {
-char c;
-
-scanf("%c", &c);
-if (isupper(c))
-printf("1\n");
-else
-printf("0\n");
-return (0);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
-
