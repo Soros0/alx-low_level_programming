@@ -8,7 +8,6 @@
 int main(void)
 {
 char c;
-
 scanf("%c", &c);
 if (isupper(c))
 printf("1\n");
