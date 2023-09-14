@@ -4,7 +4,7 @@
 *
 *Desc:header file containing functions declaration
 */
-#include guard
+#include <stdio.h>
 void print_alphabet(void);
 void jack_bauer(void);
 void print_alphabet_x10(void);
@@ -29,3 +29,5 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
+#endif
+
